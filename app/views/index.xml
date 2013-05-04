@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+		<Widget id="mywidget" src="mycustomwidget" />
+		<!--
+		<Widget id="mywidget" src="mycustomwidget" onClick="onClick"/>
+		error on Android		
+		-->
+	</Window>
+</Alloy>
