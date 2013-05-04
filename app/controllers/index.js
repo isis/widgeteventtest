@@ -18,16 +18,17 @@ above code works fine on iOS
 
 */
 
+/*
 $.mywidget.label.on('click', function(e) {
 	alert("$.mywidget.label.on");
 });
-/*
-above code works fine both on iOS and Android
+above code occurs error on iOS 
+works fine on Android
 */
-/*
 $.mywidget.label.addEventListener('click', function(e) {
 	alert("$.mywidget.label.addEventListener");
 });
+/*
 above code works fine both on iOS and Android
 */
 
